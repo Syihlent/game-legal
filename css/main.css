@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: azure;
+}
+
+h1{
+    font-weight: bold;
+    border-left: 5px lavender solid;
+    padding-left: 15px;
+}
+
+ul{
+    list-style-type: none;
+    gap: 15px;
+    padding-left: 15px;
+}
+
+li{
+    font-weight: bold;
+}
+
+li > ul > li{
+    margin: 10px;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+    color: lightgreen;
+}
+
+
+
+#homeButton{
+    background-color: black;
+    color: white;
+    border: azure solid 5px;
+    border-radius: 15px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5em;
+    padding: 15px;
+    font-weight: bold;
+}
